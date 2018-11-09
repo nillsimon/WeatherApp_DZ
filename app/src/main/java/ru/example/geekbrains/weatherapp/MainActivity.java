@@ -65,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
         weatherIcon = findViewById(R.id.weather_icon);
         weatherIcon.setTypeface(weatherFont);
 
-
         loadText();
     }
     private void saveText(){
@@ -234,7 +233,6 @@ public class MainActivity extends AppCompatActivity {
         }
         weatherIcon.setText(icon);
     }
-
 
     // Метод для доступа кнопки меню к данным
     private void changeCity(String city) {
